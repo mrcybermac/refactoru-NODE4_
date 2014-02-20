@@ -1,0 +1,9 @@
+extends layout
+block content
+    h1= locObj.title
+    p Welcome to #{locObj.title}
+    if nextObjKey
+        a(href="/location/#{nextObjKey}")
+            button Next part of journey
+    else
+        h2 End of Journey
