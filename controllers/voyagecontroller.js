@@ -17,7 +17,7 @@ module.exports = {
             }
         }
         else {
-            res.redirect('/seville');
+            res.redirect('/location/seville');
         }
     },
 
